@@ -16,5 +16,25 @@ namespace POSSystem
         {
             InitializeComponent();
         }
+
+        private void btnCreateNewBill_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnIssueLoyaltyCard_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEditProfile_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelCashier_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
