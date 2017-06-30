@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CashierForm.cs">
+    <Compile Include="Cashier.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CashierForm.Designer.cs">
-      <DependentUpon>CashierForm.cs</DependentUpon>
+    <Compile Include="Cashier.Designer.cs">
+      <DependentUpon>Cashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Create New Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create New Bill.Designer.cs">
+      <DependentUpon>Create New Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit Profile.Designer.cs">
+      <DependentUpon>Edit Profile.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -58,10 +70,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Issue Loyalty Card.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Issue Loyalty Card.Designer.cs">
+      <DependentUpon>Issue Loyalty Card.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CashierForm.resx">
-      <DependentUpon>CashierForm.cs</DependentUpon>
+    <EmbeddedResource Include="Cashier.resx">
+      <DependentUpon>Cashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create New Bill.resx">
+      <DependentUpon>Create New Bill.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
