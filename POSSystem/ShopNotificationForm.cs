@@ -15,13 +15,14 @@ namespace POSSystem
         public ShopNotificationForm()
         {
             InitializeComponent();
-            DataGridViewButtonColumn uninstallButtonColumn = new DataGridViewButtonColumn();
-            uninstallButtonColumn.Name = "IsRelease";
-            uninstallButtonColumn.Text = "IsRelease";
-            int columnIndex = 3;
+            DataGridViewButtonColumn buttonColumn = new DataGridViewButtonColumn();
+            buttonColumn.Name = "IsRelease";
+            buttonColumn.Text = "YES";
+            buttonColumn.UseColumnTextForButtonValue = true;
+            int columnIndex = 4;
             if (dataGridView1.Columns["IsRelease"] == null)
             {
-                dataGridView1.Columns.Insert(columnIndex, uninstallButtonColumn);
+                dataGridView1.Columns.Insert(columnIndex, buttonColumn);
             }
             //dataGridView1.CellClick += dataGridView1_CellContentClick;
         }
@@ -40,7 +41,8 @@ namespace POSSystem
         {
             if (e.ColumnIndex == dataGridView1.Columns["IsRelease"].Index)
             {
-                //Do something with your button.
+                string id=dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+
                 MessageBox.Show("aaaaaaaaaaa");
             }
 

@@ -11,10 +11,10 @@ using System.Runtime.InteropServices;
 using System.Data.SqlClient;
 namespace POSSystem
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
        
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -105,7 +105,9 @@ namespace POSSystem
                         //Manager Main Window
                         MessageBox.Show("Manager Main Window");
                     }
+                    this.Close();
                 }
+
                 else {
                     MessageBox.Show("Incorrect UserName or password ");
                 }

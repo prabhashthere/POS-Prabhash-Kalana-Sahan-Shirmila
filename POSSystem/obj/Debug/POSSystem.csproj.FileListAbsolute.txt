@@ -2,10 +2,10 @@ c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\bin\
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\bin\Debug\POSSystem.exe
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\bin\Debug\POSSystem.pdb
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.csprojResolveAssemblyReference.cache
-c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.Form1.resources
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.Properties.Resources.resources
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.csproj.GenerateResource.Cache
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.exe
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.pdb
 C:\Users\Shirmila\Documents\Visual Studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.CashierForm.resources
 C:\Users\Shirmila\Documents\Visual Studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.ShopNotificationForm.resources
+C:\Users\Shirmila\Documents\Visual Studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.LoginForm.resources
