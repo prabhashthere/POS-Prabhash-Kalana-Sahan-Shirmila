@@ -1,6 +1,6 @@
 ﻿namespace POSSystem
 {
-    partial class Form1
+    partial class LoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtUserName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -45,11 +45,11 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtPassword);
+            this.panel1.Controls.Add(this.txtUserName);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(71, 12);
             this.panel1.Name = "panel1";
@@ -57,34 +57,20 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // button2
+            // btnLogin
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkGray;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Red;
-            this.button2.Location = new System.Drawing.Point(471, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(37, 41);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "X";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DarkGray;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.Location = new System.Drawing.Point(113, 301);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 49);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "LOGIN";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnLogin.BackColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnLogin.Location = new System.Drawing.Point(113, 301);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(122, 49);
+            this.btnLogin.TabIndex = 5;
+            this.btnLogin.Text = "LOGIN";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // pictureBox2
             // 
@@ -107,25 +93,27 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // textBox2
+            // txtPassword
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.Silver;
-            this.textBox2.Location = new System.Drawing.Point(93, 219);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(211, 30);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "PASSWORD";
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.ForeColor = System.Drawing.Color.Silver;
+            this.txtPassword.Location = new System.Drawing.Point(93, 219);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(211, 30);
+            this.txtPassword.TabIndex = 2;
+            this.txtPassword.Text = "PASSWORD";
+            this.txtPassword.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox1
+            // txtUserName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Silver;
-            this.textBox1.Location = new System.Drawing.Point(93, 159);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(211, 30);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "USER NAME";
+            this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.ForeColor = System.Drawing.Color.Silver;
+            this.txtUserName.Location = new System.Drawing.Point(93, 159);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(211, 30);
+            this.txtUserName.TabIndex = 1;
+            this.txtUserName.Text = "USER NAME";
+            this.txtUserName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -136,6 +124,21 @@
             this.label1.Size = new System.Drawing.Size(280, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "MEMBER LOGIN";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.DarkGray;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Red;
+            this.button2.Location = new System.Drawing.Point(471, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(37, 41);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "X";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
@@ -162,10 +165,10 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button2;
     }
