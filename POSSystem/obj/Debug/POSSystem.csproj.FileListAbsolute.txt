@@ -2,20 +2,27 @@ c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\bin\
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\bin\Debug\POSSystem.exe
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\bin\Debug\POSSystem.pdb
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.csprojResolveAssemblyReference.cache
-c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.Form1.resources
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.Properties.Resources.resources
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.csproj.GenerateResource.Cache
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.exe
 c:\users\shirmila\documents\visual studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.pdb
 C:\Users\Shirmila\Documents\Visual Studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.CashierForm.resources
+<<<<<<< HEAD
 C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\bin\Debug\POSSystem.exe.config
 C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.exe
 C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.pdb
-C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.csprojResolveAssemblyReference.cache
-C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.Cashier.resources
-C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.Form1.resources
-C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.Properties.Resources.resources
-C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.csproj.GenerateResource.Cache
 C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\bin\Debug\POSSystem.exe
 C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\bin\Debug\POSSystem.pdb
-C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.Create_New_Bill.resources
+C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.csprojResolveAssemblyReference.cache
+C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.FormCashier.resources
+C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.FormCreateNewBill.resources
+C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.FormEditProfile.resources
+C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.Form1.resources
+C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.FormIssueLoyaltyCard.resources
+C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.Properties.Resources.resources
+C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.csproj.GenerateResource.Cache
+C:\Users\Prabhash\Desktop\ali\POS-Prabhash-Kalana-Sahan-Shirmila\POSSystem\obj\Debug\POSSystem.Final_Amount.resources
+=======
+C:\Users\Shirmila\Documents\Visual Studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.ShopNotificationForm.resources
+C:\Users\Shirmila\Documents\Visual Studio 2015\Projects\POSSystem\POSSystem\obj\Debug\POSSystem.LoginForm.resources
+>>>>>>> de73c5d685489eb00dc4a56e5c3df9e10f1835f3

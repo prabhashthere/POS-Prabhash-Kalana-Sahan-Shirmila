@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace POSSystem
 {
-    public partial class Edit_Profile : Form
+    public partial class FormEditProfile : Form
     {
-        public Edit_Profile()
+        public FormEditProfile()
         {
             InitializeComponent();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            FormEditProfile formEditProfile = new FormEditProfile();
+            formEditProfile.Close();
         }
     }
 }

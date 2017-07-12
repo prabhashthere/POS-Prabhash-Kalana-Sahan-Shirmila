@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace POSSystem
 {
-    public partial class Issue_Loyalty_Card : Form
+    public partial class FormIssueLoyaltyCard : Form
     {
-        public Issue_Loyalty_Card()
+        public FormIssueLoyaltyCard()
         {
             InitializeComponent();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            FormIssueLoyaltyCard formIssueLoyaltyCard = new FormIssueLoyaltyCard();
+            formIssueLoyaltyCard.Close();
         }
     }
 }

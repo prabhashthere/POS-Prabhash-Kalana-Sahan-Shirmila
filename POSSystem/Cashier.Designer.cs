@@ -1,6 +1,6 @@
 ﻿namespace POSSystem
 {
-    partial class Cashier
+    partial class FormCashier
     {
         /// <summary>
         /// Required designer variable.
@@ -31,8 +31,8 @@
             this.btnCreateNewBill = new System.Windows.Forms.Button();
             this.btnIssueLoyaltyCard = new System.Windows.Forms.Button();
             this.btnEditProfile = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.panelCashier = new System.Windows.Forms.Panel();
+            this.panelCashier.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCreateNewBill
@@ -51,7 +51,7 @@
             this.btnIssueLoyaltyCard.Name = "btnIssueLoyaltyCard";
             this.btnIssueLoyaltyCard.Size = new System.Drawing.Size(214, 38);
             this.btnIssueLoyaltyCard.TabIndex = 1;
-            this.btnIssueLoyaltyCard.Text = "Issue Loyalty CArd";
+            this.btnIssueLoyaltyCard.Text = "Issue Loyalty Card";
             this.btnIssueLoyaltyCard.UseVisualStyleBackColor = true;
             this.btnIssueLoyaltyCard.Click += new System.EventHandler(this.btnIssueLoyaltyCard_Click);
             // 
@@ -65,26 +65,26 @@
             this.btnEditProfile.UseVisualStyleBackColor = true;
             this.btnEditProfile.Click += new System.EventHandler(this.btnEditProfile_Click);
             // 
-            // panel1
+            // panelCashier
             // 
-            this.panel1.Controls.Add(this.btnEditProfile);
-            this.panel1.Controls.Add(this.btnIssueLoyaltyCard);
-            this.panel1.Controls.Add(this.btnCreateNewBill);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(297, 248);
-            this.panel1.TabIndex = 3;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCashier_Paint);
+            this.panelCashier.Controls.Add(this.btnEditProfile);
+            this.panelCashier.Controls.Add(this.btnIssueLoyaltyCard);
+            this.panelCashier.Controls.Add(this.btnCreateNewBill);
+            this.panelCashier.Location = new System.Drawing.Point(12, 12);
+            this.panelCashier.Name = "panelCashier";
+            this.panelCashier.Size = new System.Drawing.Size(297, 248);
+            this.panelCashier.TabIndex = 3;
+            this.panelCashier.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCashier_Paint);
             // 
-            // Cashier
+            // FormCashier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(321, 267);
-            this.Controls.Add(this.panel1);
-            this.Name = "Cashier";
+            this.Controls.Add(this.panelCashier);
+            this.Name = "FormCashier";
             this.Text = "Cashier";
-            this.panel1.ResumeLayout(false);
+            this.panelCashier.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -94,6 +94,6 @@
         private System.Windows.Forms.Button btnCreateNewBill;
         private System.Windows.Forms.Button btnIssueLoyaltyCard;
         private System.Windows.Forms.Button btnEditProfile;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelCashier;
     }
 }
